@@ -40,7 +40,7 @@ Config.Shops = {
             [1] = {
                 coords = vector4(-45.65, -1093.66, 25.44, 69.5), -- where the vehicle will spawn on display
                 defaultVehicle = 'ardent', -- Default display vehicle
-                chosenVehicle = 'ardent' -- Same as default but is dynamically changed when swapping vehicles
+                chosenVehicle = 'ardent', -- Same as default but is dynamically changed when swapping vehicles
             },
             [2] = {
                 coords = vector4(-48.27, -1101.86, 25.44, 294.5),
@@ -48,12 +48,12 @@ Config.Shops = {
                 chosenVehicle = 'schafter2'
             },
             [3] = {
-                coords = vector4(-36.54, -1093.1, 27.3, 70.22),
+                coords = vector4(-36.54, -1093.1, 25.44, 70.22),
                 defaultVehicle = 'coquette',
                 chosenVehicle = 'coquette'
             },
             [4] = {
-                coords = vector4(-55.18, -1096.44, 27.3, 208.07.5),
+                coords = vector4(-55.18, -1096.44, 25.44, 208.07.5),
                 defaultVehicle = 'vigero',
                 chosenVehicle = 'vigero'
             },
@@ -63,7 +63,7 @@ Config.Shops = {
                 chosenVehicle = 'rhapsody'
             },
             [6] = {
-                coords = vector4(-49.73, -1083.75, 27.3, 69.95),
+                coords = vector4(-49.73, -1083.75, 25.44, 69.95),
                 defaultVehicle = 'bati',
                 chosenVehicle = 'bati'
             },
