@@ -63,17 +63,17 @@ Config.Shops = {
                 chosenVehicle = 'rhapsody'
             },
             [6] = {
-                coords = vector4(-43.31, -1099.02, 25.44, 52.5),
+                coords = vector4(-40.23, -1117.35, 26.67, 160.29),
                 defaultVehicle = 'bati',
                 chosenVehicle = 'bati'
             },
             [7] = {
-                coords = vector4(-50.66, -1093.05, 25.44, 222.5),
+                coords = vector4(-43.86, -1117.68, 26.67, 156.32),
                 defaultVehicle = 'bati',
                 chosenVehicle = 'bati'
             },
             [8] = {
-                coords = vector4(-44.28, -1102.47, 25.44, 298.5),
+                coords = vector4(-47.32, -1117.97, 26.67, 159.62),
                 defaultVehicle = 'bati',
                 chosenVehicle = 'bati'
             }
