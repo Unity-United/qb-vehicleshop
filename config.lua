@@ -48,12 +48,12 @@ Config.Shops = {
                 chosenVehicle = 'schafter2'
             },
             [3] = {
-                coords = vector4(-36.54, -1093.1, 25.44, 70.22),
+                coords = vector4(-39.6, -1096.01, 25.44, 66.5),
                 defaultVehicle = 'coquette',
                 chosenVehicle = 'coquette'
             },
             [4] = {
-                coords = vector4(-55.18, -1096.44, 25.44, 208.07.5),
+                coords = vector4(-51.21, -1096.77, 25.44, 254.5),
                 defaultVehicle = 'vigero',
                 chosenVehicle = 'vigero'
             },
@@ -63,7 +63,7 @@ Config.Shops = {
                 chosenVehicle = 'rhapsody'
             },
             [6] = {
-                coords = vector4(-49.73, -1083.75, 25.44, 69.95),
+                coords = vector4(-43.31, -1099.02, 25.44, 52.5),
                 defaultVehicle = 'bati',
                 chosenVehicle = 'bati'
             },
