@@ -115,18 +115,18 @@ Config.Shops = {
         ['Type'] = 'managed', -- meaning a real player has to sell the car
         ['Zone'] = {
             ['Shape'] = {
-                vector2(-1260.6973876953, -349.21334838867),
-                vector2(-1268.6248779297, -352.87365722656),
-                vector2(-1274.1533203125, -358.29794311523),
-                vector2(-1273.8425292969, -362.73715209961),
-                vector2(-1270.5701904297, -368.6716003418),
-                vector2(-1266.0561523438, -375.14080810547),
-                vector2(-1244.3684082031, -362.70278930664),
-                vector2(-1249.8704833984, -352.03326416016),
-                vector2(-1252.9503173828, -345.85726928711)
+                vector2(951.26, -984.86),
+                vector2(912.08, -987.07),
+                vector2(911.26, -974.18),
+                vector2(903.33, -974.2),
+                vector2(902.64, -945.24),
+                vector2(931.48, -934.47),
+                vector2(956.03, -932.91),
+                vector2(961.16, -933.62),
+                vector2(964.35, -983.87)
             },
-            ['minZ'] = 36.646457672119,
-            ['maxZ'] = 37.516143798828,
+            ['minZ'] = 38.97,
+            ['maxZ'] = 44.22,
             ['size'] = 2.75 -- size of the vehicles zones
         },
         ['Job'] = 'cardealer', -- Name of job or none
@@ -135,38 +135,38 @@ Config.Shops = {
         ['blipSprite'] = 326, -- Blip sprite
         ['blipColor'] = 3, -- Blip color
         ['TestDriveTimeLimit'] = 0.5,
-        ['Location'] = vector3(-1255.6, -361.16, 36.91),
-        ['ReturnLocation'] = vector3(-1231.46, -349.86, 37.33),
-        ['VehicleSpawn'] = vector4(-1231.46, -349.86, 37.33, 26.61),
-        ['TestDriveSpawn'] = vector4(-1232.81, -347.99, 37.33, 23.28), -- Spawn location for test drive
+        ['Location'] = vector3(945.91, -977.74, 39.5),
+        ['ReturnLocation'] = vector3(937.5, -990.15, 38.39),
+        ['VehicleSpawn'] = vector4(955.53, -959.59, 39.5, 93.46),
+        ['TestDriveSpawn'] = vector4(957.98, -989.47, 40.27, 90.52), -- Spawn location for test drive
         ['ShowroomVehicles'] = {
             [1] = {
-                coords = vector4(-1265.31, -354.44, 35.91, 205.08),
+                coords = vector4(937.25, -970.86, 39.54, 273.08),
                 defaultVehicle = 'italirsx',
                 chosenVehicle = 'italirsx'
             },
             [2] = {
-                coords = vector4(-1270.06, -358.55, 35.91, 247.08),
+                coords = vector4(916.26, -962.49, 39.5, 270.09),
                 defaultVehicle = 'italigtb',
                 chosenVehicle = 'italigtb'
             },
             [3] = {
-                coords = vector4(-1269.21, -365.03, 35.91, 297.12),
+                coords = vector4(918.18, -982.53, 39.5, 273.59),
                 defaultVehicle = 'nero',
                 chosenVehicle = 'nero'
             },
             [4] = {
-                coords = vector4(-1252.07, -364.2, 35.91, 56.44),
+                coords = vector4(946.11, -937.67, 39.5, 180.33),
                 defaultVehicle = 'bati',
                 chosenVehicle = 'bati'
             },
             [5] = {
-                coords = vector4(-1255.49, -365.91, 35.91, 55.63),
+                coords = vector4(958.32, -947.77, 39.5, 87.29),
                 defaultVehicle = 'carbonrs',
                 chosenVehicle = 'carbonrs'
             },
             [6] = {
-                coords = vector4(-1249.21, -362.97, 35.91, 53.24),
+                coords = vector4(938.23, -978.49, 39.57, 4.56),
                 defaultVehicle = 'hexer',
                 chosenVehicle = 'hexer'
             },
