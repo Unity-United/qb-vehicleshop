@@ -13,14 +13,14 @@ Config.Shops = {
         ['Type'] = 'free-use', -- no player interaction is required to purchase a car
         ['Zone'] = {
             ['Shape'] = {--polygon that surrounds the shop
-                vector2(-56.727394104004, -1086.2325439453),
-                vector2(-60.612808227539, -1096.7795410156),
-                vector2(-58.26834487915, -1100.572265625),
-                vector2(-35.927803039551, -1109.0034179688),
-                vector2(-34.427627563477, -1108.5111083984),
-                vector2(-32.02657699585, -1101.5877685547),
-                vector2(-33.342102050781, -1101.0377197266),
-                vector2(-31.292987823486, -1095.3717041016)
+                vector2(-53.23, -1120.12),
+                vector2(-50.68, -1106.91),
+                vector2(-49.6, -1103.36),
+                vector2(-60.34, -1099.15),
+                vector2(-52.75, -1078.03),
+                vector2(-25.6, -1088.25),
+                vector2(-33.09, -1108.48),
+                vector2(-38.84, -1120.76)
             },
             ['minZ'] = 25.0, -- min height of the shop zone
             ['maxZ'] = 28.0, -- max height of the shop zone
