@@ -210,6 +210,7 @@ RegisterNetEvent('qb-vehicleshop:server:buyShowroomVehicle', function(vehicle)
         })
         TriggerClientEvent('QBCore:Notify', src, Lang:t('success.purchased'), 'success')
         TriggerClientEvent('qb-vehicleshop:client:buyShowroomVehicle', src, vehicle, plate)
+        TriggerClientEvent('vehiclekeys:client:SetOwner', buyerId, plate)
         pData.Functions.RemoveMoney('cash', vehiclePrice, 'vehicle-bought-in-showroom')
     elseif bank > tonumber(vehiclePrice) then
         MySQL.insert('INSERT INTO player_vehicles (license, citizenid, vehicle, hash, mods, plate, garage, state) VALUES (?, ?, ?, ?, ?, ?, ?, ?)', {
